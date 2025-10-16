@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Telegram AutoClicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <!-- Интерфейс игры -->
+    <div class="game-container">
+        <h1>Auto Clicker</h1>
+        <button id="clickButton">Нажми меня!</button>
+        <p id="scoreDisplay">Счёт: 0</p>
+
+        <!-- Улучшения -->
+        <ul id="upgradesList"></ul>
+
+        <!-- Сохранение прогресса -->
+        <button onclick="saveProgress()">Сохранить прогресс</button>
+        <button onclick="loadProgress()">Загрузить прогресс</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
